@@ -22,12 +22,21 @@
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz9-UM-TrK">
+                                <rect key="frame" x="168" y="160" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0iY-9s-2Fa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="298" id="2is-no-rF4"/>
                             <constraint firstItem="0iY-9s-2Fa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5ve-IO-o6b"/>
+                            <constraint firstItem="Lz9-UM-TrK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="71e-Ye-DWD"/>
+                            <constraint firstItem="Lz9-UM-TrK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="Oqf-Fj-S5d"/>
                             <constraint firstItem="0iY-9s-2Fa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sqz-o9-aMS"/>
+                            <constraint firstItem="Lz9-UM-TrK" firstAttribute="trailing" secondItem="0iY-9s-2Fa" secondAttribute="trailing" id="sTh-sT-vvz"/>
                             <constraint firstItem="0iY-9s-2Fa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="tqx-DC-dCj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
